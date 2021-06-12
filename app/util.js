@@ -1,5 +1,9 @@
-console.log('util.js');
+console.log('** util.js ****');
 const name ='Appu badiger';
 //passing argument
-module.exports = name;
+const add = function(a,b) {
+   return  a+b;
+}
+
+module.exports = add;
 //other file can access
